@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EveryDayFocus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="inn">
+                <h2 style="color: white;margin-bottom: 15px; text-decoration:underline;">Focus On Today</h2>
+                <div class="progress">
+                    <progress max="5" value="" ></progress>
+                    <span class="totaltask"></span>
+                </div>
+                <div class="tasklist">
+                        <input id="js-task-input" class="js-task-input" type="text" contenteditable="" placeholder="Note your Today's task" >
+                        <button class="addlist"> Add Task</button>    
+                </div>
+                <div class="addedtasklist">
+                    
+                </div>
+                <div class="ResultNote" style="color: aliceblue;text-align: center;"></div>
+                <button class="reset" title="Double Click Me">Reset Task</button>
+         </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
